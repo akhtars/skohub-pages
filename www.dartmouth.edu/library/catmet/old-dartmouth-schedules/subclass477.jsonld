@@ -4,6 +4,11 @@
   "prefLabel": {
     "en": "Germany (1945-date)."
   },
+  "scopeNote": {
+    "en": [
+      "Classify with earlier of two overlapping periods."
+    ]
+  },
   "notation": [
     "H477"
   ],

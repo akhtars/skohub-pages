@@ -4,6 +4,16 @@
   "prefLabel": {
     "en": "Germany (1918-1945)."
   },
+  "historyNote": {
+    "en": [
+      "Previously \"Germany (1918-date).\""
+    ]
+  },
+  "scopeNote": {
+    "en": [
+      "Classify with earlier of two overlapping periods."
+    ]
+  },
   "notation": [
     "H476"
   ],
