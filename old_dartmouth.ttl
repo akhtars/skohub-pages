@@ -4,7 +4,7 @@
 @prefix dartclass: <https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/class> .
 @prefix dartsubclass: <https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclass> .
 @prefix vann: <http://purl.org/vocab/vann> .
-@prefix lcc: <http://id.loc.gov/authorities/classification> .
+@prefix lcc: <http://id.loc.gov/authorities/classification/> .
 
 classification:old-dartmouth a skos:ConceptScheme ;
 	skos:hasTopConcept dartclass:h ;
