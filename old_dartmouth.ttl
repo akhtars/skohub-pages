@@ -1,0 +1,56 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix classification: <https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/classification> .
+@prefix dartclass: <https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/class> .
+@prefix dartsubclass: <https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclass> .
+
+classification:old-dartmouth a skos:ConceptScheme ;
+	skos:hasTopConcept dartclass:h ;
+	skos:prefLabel "Old Dartmouth Classification System"@en .
+
+dartclass:h a skos:Concept ;
+	skos:inScheme classification:old-dartmouth ;
+	skos:narrower dartsubclass:h ;
+	skos:notation "Class H" ;
+	skos:prefLabel "History"@en ;
+	skos:scopeNote "Lives of sovereigns are classified in History.  Cutter from biographee and add letter of biographer.  Do not use z in the call no.  Do not change books already cataloged with z.  There will be a few cases, such as another book or another edition by same biographer, where z has been used on the earlier work and may be used on the new book to keep the two books together.  Feb. 1942." .
+
+dartsubclass:477 a skos:Concept .
+dartsubclass:477 skos:broader dartclass:h .
+dartsubclass:477 skos:inScheme classification:old-dartmouth .
+dartsubclass:477 skos:notation "H477" .
+dartsubclass:477 skos:prefLabel "Germany (1945-date)."@en .
+dartsubclass:477 skos:scopeNote "Classify with earlier of two overlapping periods." .
+dartsubclass:H532 a skos:Concept .
+dartsubclass:H532 skos:broader dartclass:h .
+dartsubclass:H532 skos:hiddenLabel "Courland and Livonia"@en .
+dartsubclass:H532 skos:inScheme classification:old-dartmouth .
+dartsubclass:H532 skos:notation "H532" .
+dartsubclass:H532 skos:prefLabel "Baltic Sea and Baltic provinces - Estonia, Latvia, Lithuania."@en .
+dartsubclass:H532 skos:scopeNote "For any one singly, or any together." .
+dartsubclass:h23 a skos:Concept .
+dartsubclass:h23 skos:broader dartclass:h .
+dartsubclass:h23 skos:hiddenLabel "Auckland and Campbell Islands."@en .
+dartsubclass:h23 skos:inScheme classification:old-dartmouth .
+dartsubclass:h23 skos:notation "H23" .
+dartsubclass:h23 skos:prefLabel "New Zealand."@en .
+dartsubclass:h23 skos:scopeNote "Includes Auckland and Campbell Islands." .
+dartsubclass:h43 a skos:Concept .
+dartsubclass:h43 skos:broader dartclass:h .
+dartsubclass:h43 skos:historyNote "Previously \"Scotland.\"" .
+dartsubclass:h43 skos:inScheme classification:old-dartmouth .
+dartsubclass:h43 skos:notation "H43" .
+dartsubclass:h43 skos:prefLabel "Scotland. Hebrides. Orkney Islands. Shetland Islands."@en .
+dartsubclass:h476 a skos:Concept .
+dartsubclass:h476 skos:broader dartclass:h .
+dartsubclass:h476 skos:historyNote "Previously \"Germany (1918-date).\"" .
+dartsubclass:h476 skos:inScheme classification:old-dartmouth .
+dartsubclass:h476 skos:notation "H476" .
+dartsubclass:h476 skos:prefLabel "Germany (1918-1945)."@en .
+dartsubclass:h476 skos:scopeNote "Classify with earlier of two overlapping periods." .
+dartsubclass:h a skos:Concept .
+dartsubclass:h skos:broader dartclass:h .
+dartsubclass:h skos:inScheme classification:old-dartmouth .
+dartsubclass:h skos:notation "H" .
+dartsubclass:h skos:prefLabel "History, Universal."@en .
+dartsubclass:h skos:scopeNote "For philosophy, theory of history, historical, Atalases, etc.  See HA - HW.  Chronologies (History) see HC.  HB, Essays, misc. material." .
