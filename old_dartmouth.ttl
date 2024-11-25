@@ -35,7 +35,7 @@ dartsubclass:h46 skos:broader dartclass:h .
 dartsubclass:h46 skos:inScheme classification:old-dartmouth .
 dartsubclass:h46 skos:notation "H43" .
 dartsubclass:h46 skos:prefLabel "Netherlands."@en .
-dartsubclass:h46 skos:scopeNote "Bks. on the hist. of Holland and Belgium together. The "\United Provinces\" to 1648, etc."@en .
+dartsubclass:h46 skos:scopeNote "Bks. on the hist. of Holland and Belgium together. The \"United Provinces\" to 1648, etc."@en .
 dartsubclass:h47 a skos:Concept .
 dartsubclass:h47 skos:broader dartclass:h .
 dartsubclass:h47 skos:inScheme classification:old-dartmouth .
