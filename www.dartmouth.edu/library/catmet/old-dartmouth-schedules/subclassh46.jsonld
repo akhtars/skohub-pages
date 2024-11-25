@@ -1,21 +1,16 @@
 {
-  "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh476",
+  "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh46",
   "type": "Concept",
   "prefLabel": {
-    "en": "Germany (1918-1945)."
-  },
-  "historyNote": {
-    "en": [
-      "Previously \"Germany (1918-date).\""
-    ]
+    "en": "Netherlands."
   },
   "scopeNote": {
     "en": [
-      "Classify with earlier of two overlapping periods."
+      "Bks. on the hist. of Holland and Belgium together. The \"United Provinces\" to 1648, etc."
     ]
   },
   "notation": [
-    "H476"
+    "H43"
   ],
   "broader": {
     "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/classh",

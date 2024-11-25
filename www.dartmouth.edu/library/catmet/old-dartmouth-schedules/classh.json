@@ -4,6 +4,11 @@
   "prefLabel": {
     "en": "History"
   },
+  "scopeNote": {
+    "en": [
+      "Lives of sovereigns are classified in History.  Cutter from biographee and add letter of biographer.  Do not use z in the call no.  Do not change books already cataloged with z.  There will be a few cases, such as another book or another edition by same biographer, where z has been used on the earlier work and may be used on the new book to keep the two books together.  Feb. 1942."
+    ]
+  },
   "notation": [
     "Class H"
   ],
@@ -12,18 +17,6 @@
       "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh",
       "prefLabel": {
         "en": "History, Universal."
-      }
-    },
-    {
-      "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclass477",
-      "prefLabel": {
-        "en": "Germany (1945-date)."
-      }
-    },
-    {
-      "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassH532",
-      "prefLabel": {
-        "en": "Baltic Sea and Baltic provinces - Estonia, Latvia, Lithuania."
       }
     },
     {
@@ -39,9 +32,21 @@
       }
     },
     {
-      "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh476",
+      "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh46",
       "prefLabel": {
-        "en": "Germany (1918-1945)."
+        "en": "Netherlands."
+      }
+    },
+    {
+      "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh47",
+      "prefLabel": {
+        "en": "Germany."
+      }
+    },
+    {
+      "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh532",
+      "prefLabel": {
+        "en": "Baltic Sea and Baltic provinces - Estonia, Latvia, Lithuania."
       }
     }
   ],

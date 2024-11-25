@@ -1,16 +1,21 @@
 {
-  "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclass477",
+  "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclassh532",
   "type": "Concept",
   "prefLabel": {
-    "en": "Germany (1945-date)."
+    "en": "Baltic Sea and Baltic provinces - Estonia, Latvia, Lithuania."
+  },
+  "hiddenLabel": {
+    "en": [
+      "Courland and Livonia"
+    ]
   },
   "scopeNote": {
     "en": [
-      "Classify with earlier of two overlapping periods."
+      "For any one singly, or any together."
     ]
   },
   "notation": [
-    "H477"
+    "H532"
   ],
   "broader": {
     "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/classh",
