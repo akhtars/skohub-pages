@@ -18,6 +18,11 @@
       "en": "History"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://id.loc.gov/authorities/classificationDA750-DA890"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/classificationold-dartmouth"

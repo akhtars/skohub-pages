@@ -10,7 +10,7 @@
     ]
   },
   "notation": [
-    "H43"
+    "H46"
   ],
   "broader": {
     "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/classh",
@@ -18,6 +18,11 @@
       "en": "History"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://id.loc.gov/authorities/classificationDJ1-DJ500.22"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/classificationold-dartmouth"
