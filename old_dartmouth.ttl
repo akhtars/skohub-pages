@@ -4,6 +4,7 @@
 @prefix dartclass: <https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/class> .
 @prefix dartsubclass: <https://www.dartmouth.edu/library/catmet/old-dartmouth-schedules/subclass> .
 @prefix vann: <http://purl.org/vocab/vann> .
+@prefix lcc: <http://id.loc.gov/authorities/classification> .
 
 classification:old-dartmouth a skos:ConceptScheme ;
 	skos:hasTopConcept dartclass:h ;
@@ -15,7 +16,8 @@ dartclass:h a skos:Concept ;
 	skos:narrower dartsubclass:h ;
 	skos:notation "Class H" ;
 	skos:prefLabel "History"@en ;
-	skos:scopeNote "Lives of sovereigns are classified in History.  Cutter from biographee and add letter of biographer.  Do not use z in the call no.  Do not change books already cataloged with z.  There will be a few cases, such as another book or another edition by same biographer, where z has been used on the earlier work and may be used on the new book to keep the two books together.  Feb. 1942."@en .
+	skos:scopeNote "Lives of sovereigns are classified in History.  Cutter from biographee and add letter of biographer.  Do not use z in the call no.  Do not change books already cataloged with z.  There will be a few cases, such as another book or another edition by same biographer, where z has been used on the earlier work and may be used on the new book to keep the two books together.  Feb. 1942."@en ;
+	skos:closeMatch lcc:D .
 
 dartsubclass:h23 a skos:Concept .
 dartsubclass:h23 skos:broader dartclass:h .
@@ -24,23 +26,27 @@ dartsubclass:h23 skos:inScheme classification:old-dartmouth .
 dartsubclass:h23 skos:notation "H23" .
 dartsubclass:h23 skos:prefLabel "New Zealand."@en .
 dartsubclass:h23 skos:scopeNote "Includes Auckland and Campbell Islands."@en .
+dartsubclass:h23 skos:closeMatch lcc:DU400-DU430 .
 dartsubclass:h43 a skos:Concept .
 dartsubclass:h43 skos:broader dartclass:h .
 dartsubclass:h43 skos:historyNote "Previously \"Scotland.\""@en .
 dartsubclass:h43 skos:inScheme classification:old-dartmouth .
 dartsubclass:h43 skos:notation "H43" .
 dartsubclass:h43 skos:prefLabel "Scotland. Hebrides. Orkney Islands. Shetland Islands."@en .
+dartsubclass:h43 skos:closeMatch lcc:DA750-DA890 .
 dartsubclass:h46 a skos:Concept .
 dartsubclass:h46 skos:broader dartclass:h .
 dartsubclass:h46 skos:inScheme classification:old-dartmouth .
-dartsubclass:h46 skos:notation "H43" .
+dartsubclass:h46 skos:notation "H46" .
 dartsubclass:h46 skos:prefLabel "Netherlands."@en .
 dartsubclass:h46 skos:scopeNote "Bks. on the hist. of Holland and Belgium together. The \"United Provinces\" to 1648, etc."@en .
+dartsubclass:h46 skos:closeMatch lcc:DJ1-DJ500.22 .
 dartsubclass:h47 a skos:Concept .
 dartsubclass:h47 skos:broader dartclass:h .
 dartsubclass:h47 skos:inScheme classification:old-dartmouth .
 dartsubclass:h47 skos:notation "H47" .
 dartsubclass:h47 skos:prefLabel "Germany."@en .
+dartsubclass:h47 skos:closeMatch lcc:DD1-DD905.22 .
 dartsubclass:h532 a skos:Concept .
 dartsubclass:h532 skos:broader dartclass:h .
 dartsubclass:h532 skos:hiddenLabel "Courland and Livonia"@en .
@@ -48,9 +54,11 @@ dartsubclass:h532 skos:inScheme classification:old-dartmouth .
 dartsubclass:h532 skos:notation "H532" .
 dartsubclass:h532 skos:prefLabel "Baltic Sea and Baltic provinces - Estonia, Latvia, Lithuania."@en .
 dartsubclass:h532 skos:scopeNote "For any one singly, or any together."@en .
+dartsubclass:h532 skos:closeMatch lcc:DK502.3-DK502.7 .
 dartsubclass:h a skos:Concept .
 dartsubclass:h skos:broader dartclass:h .
 dartsubclass:h skos:inScheme classification:old-dartmouth .
 dartsubclass:h skos:notation "H" .
 dartsubclass:h skos:prefLabel "History, Universal."@en .
 dartsubclass:h skos:scopeNote "For philosophy, theory of history, historical, Atalases, etc.  See HA - HW.  Chronologies (History) see HC.  HB, Essays, misc. material."@en .
+dartsubclass:h skos:closeMatch lcc:D1-D2027 .
